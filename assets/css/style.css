@@ -1280,11 +1280,20 @@ footer{
         margin-bottom: 15px;
     }
 
+
+    .footer--item.area1 {
+        height: 20px;
+        margin: auto;
+        margin-left:25%;
+    }   
+
     .footer--item.area2 {
-        font-size: 12px;
-        align-items: center;
-        flex-direction: column;
-        display: flex;
+        display: none;  
+    }
+
+    
+    .footer--item.area3 form{
+        display: none;
     }
 
 
